@@ -1,9 +1,9 @@
 
-package recuperacao;
+package Pessoas;
 
 public class PessoaFisica extends Pessoa{
-    private int rg;
-    private int cpf;
+    private String rg;
+    private String cpf;
     private String tipo;
     
     
@@ -11,19 +11,19 @@ public class PessoaFisica extends Pessoa{
     
     }
 
-    public int getRg() {
+    public String getRg() {
         return rg;
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setRg(int rg) {
+    public void setRg(String rg) {
         this.rg = rg;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 

@@ -1,9 +1,9 @@
 
-package recuperacao;
+package Pessoas;
 
 
 public class PessoaJuridica extends Pessoa{
-    private int cnpj;
+    private String cnpj;
     private String tipo;
     
     
@@ -11,7 +11,7 @@ public class PessoaJuridica extends Pessoa{
     
     }
     
-    public int getCnpj() {
+    public String getCnpj() {
         return cnpj;
     }
 
@@ -19,7 +19,7 @@ public class PessoaJuridica extends Pessoa{
         return tipo;
     }
 
-    public void setCnpj(int cnpj) {
+    public void setCnpj(String cnpj) {
         this.cnpj = cnpj;
     }
 

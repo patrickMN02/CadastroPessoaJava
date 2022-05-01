@@ -2,8 +2,8 @@
 package ClassePrincipal;
 
 import Interfaces.Menu;
-import recuperacao.Pessoa;
-import recuperacao.PessoaJuridica;
+import Pessoas.Pessoa;
+import Pessoas.PessoaJuridica;
 
 
 public class Principal {

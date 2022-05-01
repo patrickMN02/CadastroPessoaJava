@@ -1,5 +1,5 @@
 
-package recuperacao;
+package Pessoas;
     
 
 public class Pessoa extends Contato{
