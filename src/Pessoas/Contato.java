@@ -6,6 +6,7 @@ public class Contato {
     private String email;
     private String telefone;
     private String ddd;
+    private String celular;
 
     public Contato() {
     }
@@ -34,6 +35,14 @@ public class Contato {
         this.ddd = ddd;
     }
 
+    public String getCelular() {
+        return celular;
+    }
+
+    public void setCelular(String celular) {
+        this.celular = celular;
+    }
+    
     
     
     

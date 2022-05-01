@@ -12,8 +12,7 @@ public class Pessoa extends Contato{
     private String cidade;
     private String estado;
     
-    public Pessoa(){
-                  
+    public Pessoa(){                  
     
     }
 
